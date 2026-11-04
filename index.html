@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="lerDados()">
+
+  <h1>Minhas Despesas</h1>
+
+  <input type="text" id="despesaInput" placeholder="Informe a Despesa">
+  <input type="text" id="valorInput" placeholder="Informe o Valor">
+  <button onclick="adicionar()">Adicionar</button>
+
+  <h3>Total Gasto: R$ <span id="total">0</span></h3>
+
+  <ul id="listaDespesas"></ul>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
